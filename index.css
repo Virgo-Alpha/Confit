@@ -18,7 +18,7 @@ header h1 {
 }
 
 #About {
-    background-color: #1b6292;
+    background-color: #284b63;
     color: #000000;
     text-align: center;
 }
@@ -58,7 +58,7 @@ header li a:hover {
 
 h4, h3 {
     text-align: center;
-    border-bottom: solid 1px black;
+    /*border-bottom: solid 1px black;*/
     text-decoration: double;
 }
 
@@ -77,10 +77,14 @@ h4, h3 {
     padding: 0 25px;
     display: inline-block;
     font-size: 16px;
+    border-right: #c3c3c3 solid 1px;
+    margin: auto;
+    text-align: center;
 }
 
 .service img {
-    width: 40%;
+    width: 70%;
+    height: 70%;
 }
 
 section {
@@ -88,7 +92,7 @@ section {
 }
 
 form {
-    background-color: aqua;
+    background-color: #284b63;
     width: max-content;
     margin: auto;
     padding: 50px;
@@ -125,13 +129,13 @@ footer {
 
 .flex-parent2 p {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 50px;
 }
 
 #founder {
     border-radius: 50%;
-    width: 500px;
-    height:500px;
+    width: 400px;
+    height:400px;
 }
 
 #About p {
@@ -172,6 +176,10 @@ footer li a:hover {
     padding: 0 0 25px;
 }
 
+#sell {
+    width: 50%;
+}
+
 /*A typical breakpoint for a mobile screen is 480px width.*/
 @media screen and (max-width: 480px) {
     .btn{
@@ -199,6 +207,7 @@ footer li a:hover {
         justify-content: center;
         text-align: left;
         margin: 0 0 10px 0;
+        border-bottom:#c3c3c3 solid 1px;
         font-size: 16px;
     }
 
